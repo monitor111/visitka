@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="business-card">
+
+        <div class="row align-items-center">
+
+            <!-- QR -->
+            <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
+                <div class="qr-box">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com" 
+                         alt="QR код">
+                    <p class="qr-text">Сканируй</p>
+                </div>
+            </div>
+
+            <!-- Инфо -->
+            <div class="col-12 col-md-8 text-center text-md-start">
+                <h2 class="name">Иван Иванов</h2>
+                <p class="position">ФОП / Услуги</p>
+
+                <hr>
+
+                <p>📞 +38 (099) 123-45-67</p>
+                <p>📍 г. Днепр</p>
+                <p>✉️ example@mail.com</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
