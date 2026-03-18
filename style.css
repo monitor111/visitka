@@ -3,6 +3,12 @@ body {
     font-family: 'Times New Roman', serif;
 }
 
+code {
+    font-style: italic;
+    color: #ddd;
+    font-size: 14px;
+}
+
 /* Карточка */
 .business-card {
     max-width: 500px;
@@ -71,6 +77,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
 
 /* Адаптив */
 @media (max-width: 576px) {
